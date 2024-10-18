@@ -1,5 +1,10 @@
-# jobhunter README
- ## How to build and run using maven in mac terminal?
+# jobhunter README 
+
+## There are three Ways to run it.
+
+## 0. Run using the JobHunterapplication file in the IDE
+This only works in the dev envioronment.
+ ## 1. How to build and run using maven in mac terminal?
 
 ### Build the Application Using Maven: 
 Compile the application and package it into a JAR file using the Maven wrapper. This step will create the executable JAR file in the target directory.
@@ -11,7 +16,9 @@ Execute the JAR file to start the Spring Boot application. It will listen on the
 
 `java -jar target/jobhunter-0.0.1-SNAPSHOT.jar`
 
-## Containerize and Run the Application in docker
+### Stop using cmd+C
+
+## 2. How to Containerize and Run the Application in docker
 ### Build the Docker Image: 
 Use the Docker CLI to build an image from your Dockerfile. The -t flag tags the image with the name jobhunter.
 
